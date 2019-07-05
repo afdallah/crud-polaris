@@ -97,7 +97,7 @@ class App extends React.Component {
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <AppProvider>
-    <Page nama="Simple Listing app">
+    <Page title="Simple Listing app">
       <App />
     </Page>
   </AppProvider>,
