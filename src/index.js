@@ -19,7 +19,20 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      members: []
+      members: [
+        {
+          id: 1,
+          nama: "Herman"
+        },
+        {
+          id: 2,
+          nama: "Jamal"
+        },
+        {
+          id: 3,
+          nama: "Kasrun"
+        }
+      ]
     };
 
     this.addMember = this.addMember.bind(this);
